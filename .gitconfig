@@ -1,0 +1,15 @@
+[color]
+  ui = auto
+[alias]
+  st = status
+  di = diff
+  ci = commit
+  br = branch
+  llog = log --date=local
+[rerere]
+  enabled = true
+[user]
+        email = brycecaine@gmail.com
+        name = Bryce Caine
+[push]
+        default = simple
