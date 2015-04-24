@@ -4,6 +4,7 @@
   st = status
   di = diff
   ci = commit
+  co = checkout
   br = branch
   llog = log --date=local
 [rerere]

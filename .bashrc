@@ -27,7 +27,6 @@ export PATH=$PATH:$HOME/.google_appengine
 # django project setups (Bryce)
 alias setup_ml='. ~/dev-setup/.setup_mapmylegacy.sh'
 alias setup_sc='. ~/dev-setup/.setup_scoutcharter.sh'
-alias setup_scos='. ~/dev-setup/.setup_scoutcharter_os.sh'
 alias setup_gf='. ~/dev-setup/.setup_giftively.sh'
 alias setup_bm='. ~/dev-setup/.setup_budgetmain.sh'
 
