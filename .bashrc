@@ -25,10 +25,11 @@ export PATH=$PATH:$HOME/.local/bin
 # path for google appengine
 export PATH=$PATH:$HOME/.google_appengine
 # django project setups (Bryce)
-alias setup_ml='. ~/dev-setup/.setup_mapmylegacy.sh'
-alias setup_sc='. ~/dev-setup/.setup_scoutcharter.sh'
-alias setup_gf='. ~/dev-setup/.setup_giftively.sh'
-alias setup_bm='. ~/dev-setup/.setup_budgetmain.sh'
+alias setup_ml='. ~/dotfiles/appsetup/.setup_mapmylegacy.sh'
+alias setup_sc='. ~/dotfiles/appsetup/.setup_scoutcharter.sh'
+alias setup_gf='. ~/dotfiles/appsetup/.setup_giftively.sh'
+alias setup_bm='. ~/dotfiles/appsetup/.setup_budgetmain.sh'
+alias setup_lr='. ~/dotfiles/appsetup/.setup_learninground.sh'
 
 export SC_EMAIL_HOST='smtp.gmail.com'
 export SC_EMAIL_HOST_PASSWORD=''
