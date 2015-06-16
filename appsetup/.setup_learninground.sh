@@ -1,4 +1,4 @@
 export DJANGO_SETTINGS_MODULE=learninground.settings
 cd ~/workspace/learninground
-source venvlr/bin/activate
+source ~/.venvs/learninground/bin/activate
 cd ~/workspace/learninground/wsgi/learninground
