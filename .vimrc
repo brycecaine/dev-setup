@@ -23,8 +23,8 @@ let mapleader=","
 set binary
 set noeol
 " Centralize backups, swapfiles and undo history
-set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
+" set backupdir=~/.vim/backups
+" set directory=~/.vim/swaps
 if exists("&undodir")
     set undodir=~/.vim/undo
 endif
@@ -105,7 +105,7 @@ set background=dark
 " let g:solarized_termcolors=256
 "colorscheme solarized
 " curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
-colorscheme molokai
+" colorscheme molokai
 
 set colorcolumn=80
 set tabstop=4
@@ -118,7 +118,7 @@ set expandtab
 " mkdir -p ~/.vim/autoload ~/.vim/bundle
 " curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
 " Now you can install any plugin into a .vim/bundle/plugin-name/ folder
-call pathogen#infect()
+" call pathogen#infect()
 
 " Settings for vim-powerline
 " cd ~/.vim/bundle
