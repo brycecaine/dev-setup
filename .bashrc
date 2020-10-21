@@ -36,7 +36,12 @@ set show-mode-in-prompt on
 
 # ----------------------------------------------------------------------------
 # Exports
+export BASHRC_RAN=true; export BASHRC_RAN
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export EDITOR='vim -f'
+
+# ----------------------------------------------------------------------------
+# Commands
+cal
 
