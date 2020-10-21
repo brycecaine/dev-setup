@@ -1,2 +1,0 @@
-set theme_color_scheme gruvbox
-fish_vi_key_bindings
