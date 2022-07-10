@@ -24,11 +24,13 @@ Plug 'morhetz/gruvbox'
 Plug 'tomasr/molokai'
 Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
-Plug 'lyuts/vim-rtags'
+" Plug 'lyuts/vim-rtags'
 " Plug 'git@github.com:kien/ctrlp.vim.git'
 " Plug 'ycm-core/YouCompleteMe'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mbbill/undotree'
 Plug 'talek/vorax4'
@@ -37,8 +39,7 @@ Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
-" colorscheme gruvbox
-colorscheme molokai
+colorscheme gruvbox
 set background=dark
 
 if executable('rg')
@@ -53,6 +54,8 @@ let g:netrw_winsize = 25
 
 let g:ctrlp_use_caching = 0
 
+" Left off at 10:00 of https://youtu.be/n9k9scbTuvQ
+"
 " --- Bryce
 " coc.nvim works best on vim >= 8.1.1719 and neovim >= 0.4.0, consider upgrade your vim.
 " You can add this to your vimrc to avoid this message:
