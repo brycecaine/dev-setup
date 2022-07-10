@@ -18,6 +18,8 @@ set paste
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
+inoremap kj <esc>
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
@@ -97,7 +99,7 @@ nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
 " Syntastic settings
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
