@@ -13,7 +13,9 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
-set paste
+
+" Instead of `set paste` because `set paste` conflicts with escaping with kj
+set pastetoggle=<F3>
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
