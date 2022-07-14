@@ -6,7 +6,12 @@
     ci = commit
     co = checkout
     br = branch
+    b = for-each-ref --sort=committerdate refs/heads/
+    pu = pull origin master
+    ps = push origin HEAD
+    lg = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short --reverse
     llog = log --date=local
+    d = branch -D
 [rerere]
     enabled = true
 [user]
@@ -14,3 +19,5 @@
     name = Bryce Caine
 [push]
     default = simple
+[core]
+    editor = vim
