@@ -23,11 +23,13 @@ PROMPT_COMMAND=build_prompt
 
 # ----------------------------------------------------------------------------
 # Aliases
+alias l='ls'
 alias ls='ls -Fh'
 alias ll='ls -lah'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
+alias cdlc='cd storage/shared'
 
 # ----------------------------------------------------------------------------
 # Sets

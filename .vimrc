@@ -34,7 +34,7 @@ Plug 'vim-utils/vim-man'
 " Plug 'lyuts/vim-rtags'
 " Plug 'git@github.com:kien/ctrlp.vim.git'
 " Plug 'ycm-core/YouCompleteMe'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mbbill/undotree'
 Plug 'talek/vorax4'
