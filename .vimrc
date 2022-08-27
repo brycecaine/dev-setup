@@ -64,6 +64,7 @@ let g:ctrlp_use_caching = 0
 " coc.nvim works best on vim >= 8.1.1719 and neovim >= 0.4.0, consider upgrade your vim.
 " You can add this to your vimrc to avoid this message:
 let g:coc_disable_startup_warning = 1
+let g:coc_node_path = trim(system('which node'))
 
 let mapleader=","
 
