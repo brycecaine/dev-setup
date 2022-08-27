@@ -21,3 +21,9 @@
     default = simple
 [core]
     editor = vim
+[safe]
+	directory = /storage/emulated/0/workspace/dotfiles
+	directory = /storage/emulated/0/workspace/clapps
+	directory = /storage/emulated/0/workspace2/clapps
+	directory = /storage/emulated/0/workspace2/clapps
+	directory = /storage/emulated/0/workspace/sqlpt

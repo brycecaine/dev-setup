@@ -75,10 +75,20 @@ if [ -d /data/data/com.termux/files/home/.termux ]; then
 
     # Bryce add
     export FLASK_APP='/data/data/com.termux/files/home/.termux/tasker/app.py'
+
+    if [[ "$HOME" =~ "termux" ]]; then
+        echo "Number is Even"
+        export ENTRY_DIR='/data/data/com.termux/files/home/storage/shared/workspace/clapps/entry'
+    else
+        echo "Number is Odd"
+        export ENTRY_DIR='/Users/caine/workspace/clapps/entry'
+    fi
+
     # flask run &
     termux-wake-lock
     sshd
-    nohup flask run > app.log 2>&1 &
+    # nohup flask run > app.log 2>&1 &
+
     termux-notification -c '.bashrc has been run'
 fi
 
