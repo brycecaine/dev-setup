@@ -76,6 +76,7 @@ if [ -d /data/data/com.termux/files/home/.termux ]; then
     # Bryce add
     export FLASK_APP='/data/data/com.termux/files/home/.termux/tasker/app.py'
     export ENTRY_DIR='/data/data/com.termux/files/home/storage/shared/workspace/clapps/entry'
+    export JOURNAL_MEMOS_DIR='/data/data/com.termux/files/home/storage/shared/journal/entries/text/'
 
     # flask run &
     termux-wake-lock
@@ -87,6 +88,7 @@ if [ -d /data/data/com.termux/files/home/.termux ]; then
 
 else
     export ENTRY_DIR='/Users/caine/workspace/clapps/entry'
+    export JOURNAL_MEMOS_DIR='/Users/caine/journal/entries/text/'
 
     echo ".bashrc run: linux"
 
